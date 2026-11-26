@@ -1,6 +1,6 @@
 
 O JAVA é uma linguagem baseada em orientação a objetos, ou seja, tudo é uma instância de um objeto ou uma classe com métodos estáticos.
-Essa funcionalidade permite atalhos conhecidos como pilares de POO : herança, polimorfismo, encapsulamento e abstração.
+Essa funcionalidade permite atalhos conhecidos como pilares de POO : herança, polimorfismo, [[Encapsulamento, modificadores de acesso, getters e setters#Encapsulamento|encapsulamento]] e abstração.
 
 Mas afinal, *lo que porras es una classe ?*, nada mais é que uma forma, um molde, uma blueprint, após ser criada, basta encaixar as peças e ter uma instância dela, ou seja, um objeto. No JAVA, temos a mínima classe de acordo com o exemplo:
 
@@ -37,14 +37,14 @@ public class Exemplo{
 ### A classe
 Observando acima temos todos os elementos que compõem uma classe : atributos, métodos, o construtor e a própria classe. Note a linha da *"public class Desktop"*, ela composta pelos seguintes elementos :
 
-**public** --> limitador de acesso que permite que a classe seja chamada em qualquer lugar;
+**[[Encapsulamento, modificadores de acesso, getters e setters#^78a94f|public]]** --> limitador de acesso que permite que a classe seja chamada em qualquer lugar;
 **class** --> palavra reservada que define a criação de uma classe;
 **desktop** --> nome que demos para a classe
 
 ### Os atributos
 Abaixo dela o próximo bloco são os atributos da classe, funcionam como variaveis que irão guardar as informações do objeto quando instanciado, a sintaxe básica é :
 
-**private** --> limitador de acesso para somente dentro da própria classe;
+**[[Encapsulamento, modificadores de acesso, getters e setters#^07ada4|private]]** --> limitador de acesso para somente dentro da própria classe;
 **string/int**--> são os tipos dos dados que serão guardados, podem ser vários outros, também podem ser estruturas de dados, enums e outro objeto
 **CPU/motherboard**--> é apenas o nome que demos pr'aquele atributo em questão
 
